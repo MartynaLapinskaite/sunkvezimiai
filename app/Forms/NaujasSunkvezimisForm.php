@@ -20,8 +20,8 @@ class NaujasSunkvezimisForm extends Form
                 'rules' => 'required|numeric|min:1900|max:' . now()->year
             ])
             ->add('savininko_vardas_pavarde', 'text', [
-                'label' => 'Savininko vardas pavardė',
-                'rules' => 'required|regex:/^[a-zA-Z]+(?:\s[a-zA-Z]+)+$/'
+                'rules' => 'required|regex:/^[a-zA-Z]+(?:\s[a-zA-Z]+)+$/',
+                'label' => 'Savininko vardas pavardė'
             ])
             ->add('savininku_skaicius', 'number', [
                 'label' => 'Savininkų skaičius'

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <body>
+<script src="https://kit.fontawesome.com/5f3d94bd98.js" crossorigin="anonymous"></script>
 <a href="store">Pridėti naują sunkvežimį</a>
 <table>
     <tr>
@@ -60,3 +61,13 @@
 </table>
 </body>
 </html>
+<style>
+    table{
+        border-collapse: collapse;
+        text-align: center;
+        width: 100%;
+    }
+    table, th, td {
+        border: 1px solid black;
+    }
+</style>

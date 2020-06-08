@@ -41,10 +41,10 @@ class SunkvezimisController extends Controller
         if (!$form->isValid()) {
             return redirect()->back()->withErrors($form->getErrors())->withInput();
         }
+
         $data = $form->getFieldValues();
         Sunkvezimis::create($data);
         return redirect()->to('/');
-        // Do saving and other things...
     }
 
     public function filtravimas(Request $request)
