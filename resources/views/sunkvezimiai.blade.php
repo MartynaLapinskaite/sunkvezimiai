@@ -40,7 +40,7 @@
                 <select data-column="2" name="savininko_vardas_pavarde" class="form-control filter-select">
                     <option value="">------</option>
                     @foreach($savininkai as $savininkas)
-                            <option value="{{$savininkas}}">{{$savininkas}}</option>
+                        <option value="{{$savininkas}}">{{$savininkas}}</option>
                     @endforeach
                 </select>
             </td>

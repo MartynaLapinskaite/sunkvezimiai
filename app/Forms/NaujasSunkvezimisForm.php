@@ -17,11 +17,11 @@ class NaujasSunkvezimisForm extends Form
                 'label' => 'Markė'
             ])
             ->add('gamybos_metai', 'number', [
-                'rules' =>'required|numeric|min:1900|max:'.now()->year
+                'rules' => 'required|numeric|min:1900|max:' . now()->year
             ])
             ->add('savininko_vardas_pavarde', 'text', [
                 'label' => 'Savininko vardas pavardė',
-                'rules' =>'required|regex:/^[a-zA-Z]+(?:\s[a-zA-Z]+)+$/'
+                'rules' => 'required|regex:/^[a-zA-Z]+(?:\s[a-zA-Z]+)+$/'
             ])
             ->add('savininku_skaicius', 'number', [
                 'label' => 'Savininkų skaičius'
